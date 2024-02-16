@@ -1,0 +1,70 @@
+body {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
+.normalButton {
+  position: relative;
+  width: 200px;
+  height: 55px;
+  background-color: rgba(245, 38, 38, 0.8);
+  color: white;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn_bootstrap {
+  width: 200px;
+  height: 55px;
+  background-color: rgba(245, 38, 38, 0.8);
+  color: white;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.popOver {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  text-align: left;
+}
+
+.popOver::after {
+  content: '';
+  background-image: url('https://avatanplus.com/files/resources/original/5ac78e8f2840c1629b84df3d.png');
+  background-color: white;
+  background-size: cover;
+  background-position: initial;
+  width: 18px;
+  height: 15px;
+  position: absolute;
+  top: 99px;
+  left: 110px;
+
+  transform: rotate(180deg);
+}
+
+.popOver_title {
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: rgb(243, 240, 240);
+}
+
+.popOver_message {
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=main.css.map*/
